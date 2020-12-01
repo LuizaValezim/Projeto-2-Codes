@@ -1,0 +1,1 @@
+setTimeout(function(){window.location='tela_inicial.html';}, 3000);
