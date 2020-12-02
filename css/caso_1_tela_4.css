@@ -1,5 +1,8 @@
+html {
+    font-family: 'Roboto', 'Noto Sans', sans-serif;
+}
+
 body {
-    font-family: 'Open Sans', 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     background: white; 
@@ -17,7 +20,7 @@ h2 {
     padding-left: 0.2rem;
     width: 60%;
     font-size: 25px;
-
+    font-family: 'Noto Serif', 'Libre Baskerville', serif;
 }
 
 header {
@@ -33,7 +36,7 @@ header {
 }
 
 .search-box {
-    background: #F5AC6C;
+    background: #57CC99;
     height: 1rem;
     border-radius: 1.5rem;
     padding: 1rem;
@@ -50,12 +53,12 @@ header {
 
 .bar:hover ~ .menu{
     left: 0;
-    background-color: #F5AC6C;
+    background-color: #57CC99;
 }
 
   /* BOTÃO */
-.dropbtn {
-    background-color: #F5AC6C;
+  .dropbtn {
+    background-color: #57CC99;
     color: white;
     padding: 1rem;
     font-size: 16px;
@@ -63,28 +66,28 @@ header {
     border: none;
     cursor: pointer;
   }
-.dropdown {
+  .dropdown {
     display: inline-block;
     padding: 1rem;
   } 
-.dropdown-content {
+  .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #57CC99;
     min-width: 160px;
   }
-.dropdown-content a {
-    color: black;
+  .dropdown-content a {
+    color: white;
     padding: 1rem 1rem;
     text-decoration: none;
     display: block;
   }
-.dropdown-content a:hover {background-color: #f1f1f1}
-.dropdown:hover .dropdown-content {
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  .dropdown:hover .dropdown-content {
     display: block;
   } 
-.dropdown:hover .dropbtn {
-    background-color: #F5AC6C; 
+  .dropdown:hover .dropbtn {
+    background-color: #57CC99; 
   }
 
 
@@ -121,8 +124,7 @@ header {
 }
 
 .button {
-    background-color:none;
-    border: 0.1rem solid #F5AC6C;;
+    border: 0.1rem solid #57CC99;;
     color: black;
     padding: 1rem;
     text-align: center;
@@ -136,7 +138,7 @@ header {
 
 /* FILTRAR */
 .dropbtn2 {
-    background-color: #F5AC6C;
+    background-color: #57CC99;
     color: white;
     padding: 1rem;
     font-size: 16px;
@@ -152,11 +154,11 @@ header {
     display: none;
     position: absolute;
     right: 1rem;
-    background-color: #f9f9f9;
+    background-color: #57CC99;
     min-width: 160px;
 }
 .dropdown-content2 a {
-    color: black;
+    color: white;
     padding: 1rem 1rem;
     text-decoration: none;
     display: block;
@@ -166,7 +168,7 @@ header {
     display: block;
       } 
 .dropdown2:hover .dropbtn2 {
-    background-color: #F5AC6C; 
+    background-color: #57CC99; 
 }
 
 .quadrado {
@@ -190,7 +192,8 @@ header {
   
   .texto p{
     text-align: start;
-    padding: 0.5rem;
+    margin: 1rem;
+    font-size: 14px;
   }
 
 li {
@@ -198,7 +201,6 @@ li {
 }
 
 footer{
-    background-color: none;
     position: fixed;
     bottom: 0;
     display: flex;
@@ -209,9 +211,10 @@ footer{
 
 .voltar{ 
     background-color: white;
-    color: black;
-    border: 0.1rem solid #F5AC6C;
+    color: white;
+    border: 0.1rem solid #57CC99;
     padding: 0.5rem;
     border-radius: 1rem;
     margin-bottom: 0.5rem;
+    background-color: #57CC99;
   }

@@ -1,5 +1,8 @@
+html {
+    font-family: 'Roboto', 'Noto Sans', sans-serif;
+}
+
 body {
-    font-family: 'Noto', 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     background: white; 
@@ -66,11 +69,11 @@ a{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #57CC99;
     min-width: 160px;
   }
 .dropdown-content a {
-    color: black;
+    color: white;
     padding: 1rem 1rem;
     text-decoration: none;
     display: block;
@@ -131,6 +134,7 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  font-family: 'Noto Serif', 'Libre Baskerville', serif;
 }
 
 /* STORIES */
@@ -254,6 +258,7 @@ h1 {
   margin-left: 3.5rem;
   margin-right: 0;
   font-weight: bold;
+  font-family: 'Noto Serif', 'Libre Baskerville', serif;
 }
 
 h2 { 
@@ -261,14 +266,15 @@ h2 {
   flex-direction: row;
   justify-content: flex-start;
   font-size: 1.3rem;
-  margin-top: 0.67em;
-  margin-bottom: 0.67em;
-  margin-left: 0.
+  margin-top: 0.67rem;
+  margin-bottom: 0.67rem;
+  margin-left: 0;
+  font-family: 'Noto Serif', 'Libre Baskerville', serif;
 }
 
 
 .button {
-  background-color:#57CC99;
+  background-color:#38A3A5;
   border: none;
   color: white;
   padding: 1rem;

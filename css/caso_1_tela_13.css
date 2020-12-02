@@ -1,5 +1,8 @@
+html {
+    font-family: 'Roboto', 'Noto Sans', sans-serif;
+}
+
 body {
-    font-family: 'Open Sans', 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     background: white; 
@@ -15,6 +18,7 @@ main {
 }
 
 h1 {
+    font-family: 'Noto Serif', 'Libre Baskerville', serif;
     font-size: 40px;
     margin-bottom: 2rem;
 }
