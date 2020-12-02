@@ -1,1 +1,1 @@
-setTimeout(function(){window.location='tela_inicial.html';}, 3000);
+setTimeout(function(){window.location='index.html';}, 3000);
